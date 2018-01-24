@@ -7,10 +7,7 @@
     "type": "git",
     "url": "https://github.com/CreateJS/Combined.git"
   },
-  "browser": "dist/createjs.min.js",
-  "directories": {
-    "lib": "dist"
-  },
+  "jsdelivr": "dist/createjs.min.js",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/CreateJS/CreateJS.git",
@@ -18,6 +15,7 @@
       {
         "basePath": "dist/",
         "files": [
+          "createjs.js",
           "createjs.min.js"
         ]
       }
