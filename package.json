@@ -7,20 +7,7 @@
     "type": "git",
     "url": "https://github.com/CreateJS/Combined.git"
   },
-  "jsdelivr": "dist/createjs.min.js",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/CreateJS/CreateJS.git",
-    "fileMap": [
-      {
-        "basePath": "dist/",
-        "files": [
-          "createjs.js",
-          "createjs.min.js"
-        ]
-      }
-    ]
-  },
+  "browser": "dist/createjs.min.js",
   "keywords": [
     "createjs",
     "easeljs",
