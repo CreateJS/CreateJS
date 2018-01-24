@@ -1,0 +1,42 @@
+{
+  "name": "createjs",
+  "version": "1.0.1",
+  "description": "A suite of modular libraries and tools which work together or independently to enable rich interactive content on open web technologies via HTML5.",
+  "url": "http://createjs.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CreateJS/Combined.git"
+  },
+  "browser": "dist/createjs.min.js",
+  "directories": {
+    "lib": "dist"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/CreateJS/CreateJS.git",
+    "fileMap": [
+      {
+        "basePath": "dist/",
+        "files": [
+          "createjs.min.js"
+        ]
+      }
+    ]
+  },
+  "keywords": [
+    "createjs",
+    "easeljs",
+    "tweenjs",
+    "soundjs",
+    "preloadjs",
+    "zoe",
+    "gskinner",
+    "flash",
+    "javascript",
+    "canvas",
+    "html5",
+    "animate"
+  ],
+  "author": "gskinner.com, inc.",
+  "license": "MIT"
+}
