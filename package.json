@@ -1,6 +1,6 @@
 {
-  "name": "createjs",
-  "version": "1.0.1",
+  "name": "@createjs/createjs",
+  "version": "2.0.0-beta.4",
   "description": "A suite of modular libraries and tools which work together or independently to enable rich interactive content on open web technologies via HTML5.",
   "url": "http://createjs.com",
   "repository": {
@@ -23,5 +23,32 @@
     "animate"
   ],
   "author": "gskinner.com, inc.",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://createjs.com",
+  "bugs": "https://github.com/createjs/createjs/issues",
+  "license": "MIT",
+  "contributors": [
+    "Patrick McGuckin <p.mcgooks@gmail.com> (https://github.com/tehvgg)"
+  ],
+  "logo": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/createjs/createjs.git"
+  },
+  "scripts": {
+    "build": "cd node_modules/@createjs/build && gulp build --combined",
+    "build-prod": "cd node_modules/@createjs/build && gulp build --combined --production --format=iife"
+  },
+  "dependencies": {
+    "@createjs/core": "2.0.0-beta.4",
+    "@createjs/easeljs": "2.0.0-beta.4",
+    "@createjs/tweenjs": "2.0.0-beta.4",
+    "@createjs/preloadjs": "2.0.0-beta.4",
+    "@createjs/soundjs": "2.0.0-beta.4"
+  },
+  "devDependencies": {
+    "@createjs/build": "2.0.0-beta.4"
+  },
+  "engine": "node >= 8.9.0",
+  "private": true
 }
